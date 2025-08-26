@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="border: 2px solid black; width: 400px; margin: 100px auto; padding: 20px; border-radius: 10px; text-align: center;">
+        <h1>Sign In</h1>
+        <form action="./submit1.html" enctype="text/plain">
+            <table border="0" width="100%" cellspacing="0" cellpadding="10">
+                <tr>
+                    <td><label for="username">Username or Email:</label></td>
+                    <td><input type="text" name="username" id="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="confirm">Confirm Password:</label></td>
+                    <td><input type="password" name="confirm" id="confirm" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,16}"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="text-align: right;">
+                        <a href="./forgotPass.html">forgot password?</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center;">
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
