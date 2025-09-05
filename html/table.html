@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Document</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <center>
-        <h3>🌟John Doe's Web Portfolio</h3> 
-        <i>Showcasing html skills using tables</i>
+        <h3 id="mainHead">🌟John Wick's Web Portfolio</h3> 
+        <i style="color: blue;">Showcasing html skills using tables</i>
         <nav>
             <a href="#about">About</a> &nbsp; &nbsp; |
             <a href="#skill">Skills</a> &nbsp; &nbsp; |
@@ -21,7 +22,7 @@
         <tr>
             <td colspan="3">
             <h3 id="about" > 🙍 About Me</h3>
-            <p>Hello I'm John Doe, a passionate web developer. I love building semantic, accessible, and resposive webistes using core web technologies</p>
+            <p>Hello I'm John Wick, a passionate web developer(<span id="highlight1">You Know Me!  sshhh......</span>). I love building semantic, accessible, and resposive webistes using core web technologies</p>
             <p>I Specialize in frontend development especially in html, css, and JavaScript</p>
             <!--<div id="my-photo"><img src="./images/WhatsApp Image 2025-08-12 at 17.20.52_d6a54fce.jpg" alt="My Profile Image" width="150"></div>-->
             </td>
@@ -29,14 +30,14 @@
         <tr>
             <td>
                 <h3 id="skill">🧠 Skills</h3>
-                <ul>
+                <ul id="skul">
                     <li>HTML/CSS3</li>
                     <li>JavaScript(ES6)</li>
                     <li>Responsive Design</li>
                     <li>Git & Github</li>
                 </ul>
                 <h3> 📃Skill Level</h3>
-                <table border="1">
+                <table border="1" id="tablesk">
                     <tr>
                         <th>Skill</th>
                         <th>Level</th>
@@ -74,7 +75,7 @@
                 <h3 id="contact-details">☎️Contact Me</h3>
                 <p>Contact Forms</p>
                 <form action="data.html">
-    <table>
+    <table id="table2">
         <tr>
             <td><label for="FullName">Full Name</label></td>
             <td><input type="text" name="FullName" id="FullName"></td>
