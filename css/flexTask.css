@@ -8,7 +8,6 @@
     padding: 10px;
     font-size: larger;
     margin-bottom: 100px;
-    width: 1500px;
 }
 .navbar1{
     background-color: rgb(53, 52, 52);
@@ -33,7 +32,6 @@
     padding: 7px;
     font-size: x-large;
     text-align: center;
-    width: 1500px;
 }
 .item{
     /* border: 1px solid white; */
