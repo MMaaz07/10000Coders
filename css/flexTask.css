@@ -6,6 +6,7 @@
     background-color: black;
     color: white;
     padding: 10px;
+    font-size: larger;
     margin-bottom: 100px;
     width: 1500px;
 }
@@ -27,6 +28,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
+    font-size: larger;
     align-items: center;
     padding: 7px;
     font-size: x-large;
