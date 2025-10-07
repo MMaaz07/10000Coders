@@ -1,0 +1,38 @@
+body{
+    height: 100%;
+}
+.cont{
+    width: 100%;
+    /* padding: 20px; */
+    height: 40px;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.inner-1{
+    width: 25%;
+    height: 100%;
+    background-color: lightgreen;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-2{
+    width: 50%;
+    height: 100%;
+    background-color: orange;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-3{
+    width: 75%;
+    height: 100%;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
