@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+.nav-bar-1{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+}
+.container-1{
+    width: 200px;
+    padding: 10px;
+        border: 1px solid grey;
+    text-align: center;
+}
+.container-2>.nav-item{
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+        border: 1px solid grey;
+}
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+.container-2>.nav-item-1:hover{
+    background-color: orange;    
+    transition: 0.7s ease;
+}
+.container-2>.nav-item-2:hover{
+    background-color: pink;    
+    transition: 0.7s ease;
+}
+.container-2>.nav-item-3:hover{
+    background-color: red;    
+    transition: 0.7s ease;
+}
+.container-1:hover{
+    background-color: green;
+    transition: 0.7s ease;
+}
+.nav-bar-2{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+.nav-bar-2>.container-3{
+    width: 100px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.nav-bar-2>.container-3:hover{
+    background-color: violet;
+    transition: 0.8s ease;
+}
+.text-container{
+    margin-top: 70px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px){
+    .nav-bar-1{
+        position: fixed;
+
+    }
+    .nav-bar-2{
+        display: none;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px){
+    .nav-bar-1{
+        position:fixed;
+    }
+    .container-2>.nav-item-2{
+        display: none;
+    }
+    .text-container{
+        font-size: 1.5rem;
+    }
+    .nav-bar-2{
+        display: none;
+    }
+}
+@media screen and (max-width: 576px){
+    .nav-bar-1{
+        display: none;
+    }
+    .nav-bar-2{
+        position: fixed;
+        top: 0;
+    }
+    .text-container{
+        font-size: 0.5 rem;
+    }
+}
