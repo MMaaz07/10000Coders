@@ -1,0 +1,132 @@
+.body,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.navbar>label{
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: magenta;
+}
+.container-1{
+    padding: 5px;
+    height: 100vh;
+    font-size: 2rem;
+    text-align: center;
+    border: 2px solid;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 2fr; */
+    /* grid-template-rows: 100px 100px;  */
+    /* grid-row-gap: 5px;
+    grid-column-gap: 5px; */
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.item-1{
+    background-color: lightblue;
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-2{
+    background-color: lightgrey;
+    color: black;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.item-3{
+    background-color: lightgreen;
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.item-4{
+    background-color: lightsalmon;
+    color: black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item-5{
+    background-color: lightseagreen;
+    color: black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.container-2{
+    padding: 5px;
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    text-align: center;
+    font-size: 2rem;
+    height: 100vh;
+}
+.block-1{
+    background-color: lightblue;
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.block-2{
+    background-color: lavender;
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.block-3{
+    background-color: lightgreen;
+    color: black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.block-4{
+    background-color: lightsalmon;
+    color: black;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.block-5{
+    background-color: lightseagreen;
+    color: black;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.block-6{
+    background-color: lightslategray;
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#cont-1{
+    display: none;
+}
+#cont-2{
+    display: none;
+}
+.container-1{
+    display: none;
+}
+.container-2{
+    display: none;
+}
+#cont-1:checked~.container-1{
+    display: grid;
+}
+#cont-2:checked~.container-2{
+    display: grid;
+}
