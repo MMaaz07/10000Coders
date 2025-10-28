@@ -395,7 +395,7 @@ body {
   .navbar:hover {
     width: 100%;               /* no hover width expansion */
   }
-  .navbar a:visited{
+  a,.navbar a:visited{
   color: white;
   text-decoration: none;
 }
