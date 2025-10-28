@@ -480,24 +480,25 @@ body {
     width: 100%;
     border-radius: 10px;
     display: flex;
+    gap: 80px;
     background-color:rgb(37, 39, 51);
     position: relative;
     padding: 20px 0px 20px 0px;
     margin: 20px 0px 20px 0px;
 }
 .search-bar input{
-    width: 80%;
-    margin-left: 80px;
-    font-size: 1.2rem;
+    width: 50%;
+    /* margin-left: 80px; */
+    font-size: 1rem;
     background-color: rgb(37, 39, 51);
     color: white;
     outline: none;  
     border: 0px solid;
 }
 .search-bar i{
-    position: absolute;
-    left: 20px;
-    font-size: 2rem;
+    /* position: absolute;
+    left: 20px; */
+    font-size: 1.4rem;
     color: white;
 }
 .container-1::-webkit-scrollbar {
