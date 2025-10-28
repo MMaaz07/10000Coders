@@ -173,6 +173,7 @@ body {
 
 .search-bar{
     width: 100%;
+    display: flex;
     border-radius: 10px;
     background-color:rgb(37, 39, 51);
     position: relative;
