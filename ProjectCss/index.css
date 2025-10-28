@@ -248,3 +248,84 @@ body {
   background-color: rgb(17, 137, 242);
   transition: all 0.3s ease;
 }
+.upgrade{
+  /* border: 2px solid white; */
+  height: 1300px;
+  margin:0px 0px 0px 100px;
+  display: flex;
+}
+.upgrade-content-box{
+  width: 450px;
+  /* border: 1px solid white; */
+  color: #888;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.offer-details{
+  width: 93%;
+  border: 1px solid #888;
+  display: flex;
+  border-radius: 10px;
+}
+.offer-details img{
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+.offer-details>.details{
+  line-height: 6px;
+}
+.upgrade table{
+  width: 700px;
+  height: 400px;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.row-name{
+  text-align: start;
+}
+.subscriptions-plan-box{
+  margin-left: 150px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plans-time-span{
+  color: white;
+  display: flex; 
+  width: 150px;
+  height: 20px;
+  margin-top: 30px;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 15px;
+  gap: 40px;
+}
+.plans-time-span input{
+  display: none;
+}
+.price-card-boxes{
+  height: 120px;
+  width: 100%;
+  /* border: 1px solid white; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.price-box-1, .price-box-2, .price-box-3{
+  border: 2px solid white;
+  width: 220px;
+  height: 100px;
+  border-radius: 10px;
+  color: white;
+}
+.subscriptions-plan-box button{
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(17, 137, 242);
+  border-radius: 10px;
+  outline: none;
+  border: 0px solid;
+}
