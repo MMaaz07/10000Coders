@@ -375,15 +375,22 @@ body {
 .subscriptions-plan-box{
   display: flex;
   width: 100%;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
   margin-top: 30px;
   color: white;
 }
+.subs-box{
+  width: 80%;
+  display: flex;
+  /* border: 1px solid white; */
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 .plan-1, .plan-2, .plan-3{
   border: 1px solid #888;
-  width: 400px;
+  width: 350px;
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
