@@ -713,6 +713,7 @@ body {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 50px;
   /* justify-content: space-between; */
 }
 .offer{
