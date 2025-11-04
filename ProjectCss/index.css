@@ -478,46 +478,46 @@ body {
 } */
 @media (max-width: 576px) {
   .navbar {
-    flex-direction: row;       /* horizontal */
+    flex-direction: row;    
     justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 30px;
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     top: auto;
     padding: 5px 0;
     background-color: #0f1014;
-    transition: none;          /* remove transitions */
+    transition: none;          
   }
 
   .logo {
-    display: none;             /* hide logo */
+    display: none;             
   }
 
   .nav-item {
-    flex-direction: column;    /* icon on top, optional */
+    flex-direction: column;    
     gap: 0;
     padding: 0;
-    transition: none;          /* no hover transition */
+    transition: none;        
   }
 
   .nav-item:hover {
-    font-weight: normal;       /* disable hover bold */
+    font-weight: normal;      
     background: none;
   }
 
   .nav-item span {
-    display: none;             /* hide text labels */
+    display: none;            
   }
 
   .nav-item i {
-    font-size: 24px;           /* slightly larger icons */
+    font-size: 24px;   
   }
 
   .navbar:hover {
-    width: 100%;               /* no hover width expansion */
+    width: 100%;         
   }
   a,.navbar a:visited{
   color: white;
@@ -710,10 +710,9 @@ body {
 .upgrade{
   /* border: 1px solid white; */
   height: 750px;
-  margin: 0;
+  margin: 0 0 100px 0;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 50px;
   /* justify-content: space-between; */
 }
 .offer{
