@@ -740,4 +740,7 @@ body {
 .offer-details>.details{
   line-height: 6px;
 }
+.subscriptions-plan-box>.subs-box{
+  margin-bottom: 50px;
+}
 }
